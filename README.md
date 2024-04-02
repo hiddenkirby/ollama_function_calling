@@ -7,7 +7,7 @@
 3. to spin ollama up on a container - run `docker run -d -v /Users/ryankirby/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
 4. to interact with ollama client - run `docker exec -it ollama ollama run llama2` - to run llama2 LLM specifically
 5. (optional): add an alias to your .bashrc file by adding `alias ollama='docker exec -it ollama ollama'`
-6. (optional): then you can run `ollama run llama2` like normalpi
+6. (optional): then you can run `ollama run llama2` like normal
 
 # developer setup
 
